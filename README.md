@@ -1,4 +1,11 @@
 Nếu gặp lỗi Access denied.... khi tạo database bằng tay thì thao tác như dưới. Thanks
+- .env của project
+- DB_CONNECTION=mysql
+- DB_HOST=laradock_mysql_1 
+- DB_PORT=3306
+- DB_DATABASE=sekisho  : db được bằng tay trong workbench hoặc heidi
+- DB_USERNAME=root      : tài khoản của mysql, nếu đăng nhập heidi bằng tài khoản khác sẽ không được phép tạo schemas (denaid)
+- DB_PASSWORD=root      : 
 
 ### mysql env/mysql/...
 
